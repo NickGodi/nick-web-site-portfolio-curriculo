@@ -1,0 +1,44 @@
+/* For small devices */
+@media screen and (max-width: 320px){
+    .nav__menu{
+      padding: 1rem 1.5rem;
+    }
+  
+    .home__buttons{
+      flex-direction: column;
+    }
+  
+    .home__handle{
+      width: 150px;
+      height: 253px;
+    }
+  
+    .home__img{
+      width: 120px;
+    }
+  
+    .about__info{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .skills__box{
+      column-gap: 1rem;
+    }
+  
+    .skills__name{
+      font-size: var(--small-font-size);
+    }
+  
+    .services__container{
+      grid-template-columns: 145px;
+      justify-content: center;
+    }
+  
+    .work__item{
+      font-size: var(--small-font-size);
+    }
+  
+    .work__filters{
+      column-gap: .25rem;
+    }
+  }

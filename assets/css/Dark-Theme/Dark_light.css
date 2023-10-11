@@ -55,3 +55,31 @@
 }.light-theme::-webkit-scrollbar-thumb:hover{
   background-color: hsl(var(--second-hue), 8%, 44%);
 }
+
+/*=============== THEME ===============*/
+.change-theme{
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.change-theme:hover{
+  color: var(--first-color);
+}
+
+/*========== Variables Light theme ==========*/
+body.light-theme{
+  --title-color: hsl(var(--second-hue), 15%, 15%); /*cinza escurecido*/
+  --text-color: hsl(var(--second-hue), 8%, 35%); /*cinza claro*/
+  --body-color: hsl(var(--second-hue), 100%, 99%); /*azul bem escuro*/
+  --container-color: #fff;
+}
+
+/* Swiper class */
+.swiper-pagination-bullet{
+  background-color: var(--text-color-light);
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--first-color);
+}
